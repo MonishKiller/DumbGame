@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6324601556761063859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6324601556761063861}
+  - component: {fileID: 6324601556761063860}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6324601556761063861
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6324601556761063859}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.801038, y: 4.9246297, z: -1.1100593}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6324601556761063860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6324601556761063859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8cc5681700ec2742811df16081b948a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Theme
+    clip: {fileID: 8300000, guid: 6f96034f256431b4493cc5abed6bc4ab, type: 3}
+    volume: 0.373
+    pitch: 1
+    spatialBelend: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: FlashLIght
+    clip: {fileID: 8300000, guid: bc2e1533000b87343b68b432d26ba0f6, type: 3}
+    volume: 0.373
+    pitch: 1
+    spatialBelend: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Death
+    clip: {fileID: 8300000, guid: a88ab3cadd47967459b1471d6f6e1131, type: 3}
+    volume: 0.373
+    pitch: 1
+    spatialBelend: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: DeathNPC
+    clip: {fileID: 8300000, guid: 5f97fc5cb8d912843ac53377cbc3ea86, type: 3}
+    volume: 0.373
+    pitch: 1
+    spatialBelend: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Button
+    clip: {fileID: 8300000, guid: 27272dbe5c1fddf428bae02e32079198, type: 3}
+    volume: 0.373
+    pitch: 1
+    spatialBelend: 0
+    loop: 0
+    source: {fileID: 0}
