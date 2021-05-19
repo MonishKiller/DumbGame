@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Mainmenu.unity
+    guid: e1561273deb0c0e4ba174da7c66d9aa1
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 59d867419f1351f42a42689838079da9
+  - enabled: 1
+    path: Assets/Scenes/Level1(spike).unity
+    guid: 6bde26695b4faf74ea0687d992d66f0f
+  - enabled: 1
+    path: Assets/Scenes/Level2(Love).unity
+    guid: 8e433c587ca59ae4e950a07ef94c6c82
+  - enabled: 1
+    path: Assets/Scenes/Level3(Horror).unity
+    guid: 052afe2341185bb44a795b62e7f8ad30
+  - enabled: 1
+    path: Assets/Scenes/Level4(Bomb).unity
+    guid: acca6f08187ca3f4d86aec46a053b237
+  - enabled: 1
+    path: Assets/Scenes/Level5(Boss).unity
+    guid: d7a6d4376225eca4283540e25db9f57c
+  - enabled: 1
+    path: Assets/Scenes/Epilouge.unity
+    guid: 75d645c68c2d41840a7f23849dcbf798
+  m_configObjects: {}
